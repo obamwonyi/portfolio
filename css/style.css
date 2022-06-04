@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+li 
+{
+    list-style-type: none;
+}
+
+li a 
+{
+    color: white;
+}
+
 @media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 0px) and (max-device-width: 768px) {
   body {
     overflow-x: hidden;
@@ -88,9 +98,56 @@
 /* --------------------------------Tab / Ipad -----------------------------------------*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) 
 {
-    
-    
 
+
+    body 
+    {
+        display: flex;
+    }
+    header
+    {
+        display: flex;
+        flex-direction: column;
+        width:18%;
+        height: 100%;
+        background-color: black;
+    }
+
+    div.container
+    {
+        background-color:white;
+    }
+    .navbar {
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+
+
+    .logo 
+    {
+       
+        font-family: 'Playfair Display SC', serif;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+  .nav_ul 
+  {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content:space-around;
+      height: 100vh;
+  }
+
+
+  .material-icons
+  {
+  }
 
 }
 
