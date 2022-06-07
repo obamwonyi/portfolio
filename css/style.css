@@ -14,7 +14,11 @@ li
     list-style-type: none;
 }
 
-
+a 
+{
+  color : white;
+  text-decoration: none;
+}
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 0px) and (max-device-width: 768px) {
   body {
@@ -67,6 +71,11 @@ li
     height: 3px;
     margin: 5px;
     transition: all 0.3s ease;
+  }
+
+  .icon_links a
+  {
+    margin-left: 20px;
   }
 
   .nav-active {
@@ -127,6 +136,14 @@ li
       }
 
 
+      .icon_links
+      {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: space-around;;
+        height: 25%;
+      }
 
     .logo 
     {
@@ -180,13 +197,22 @@ li
   .logo {
     font-size: 25px;
     font-family: 'Playfair Display SC', serif;
-    width: 50%;
+    width: 30%;
     padding-left: 20px;
+  }
+
+
+  .icon_links
+  {
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
   }
 
   a 
   {
-    background-color: green;
+    color: white;
+    text-decoration: none;
   }
 
 }
