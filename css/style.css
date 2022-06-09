@@ -16,11 +16,11 @@ li
 
 a 
 {
-  color : white;
+  color :#FFFDFA ;
   text-decoration: none;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 0px) and (max-device-width: 768px) {
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 0px) and (max-device-width: 767px) {
   body {
     overflow-x: hidden;
   }
@@ -33,8 +33,8 @@ a
   */
 
   .navbar {
-    background-color: black;
-    color: white;
+    background-color: #262626;
+    color: #FFFDFA;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,9 +50,9 @@ a
     flex-direction: column;
     top: 8vh;
     align-items: center;
-    color: white;
+    color: #FFFDFA;
     list-style-type: none;
-    background-color: black;
+    background-color: rgb(41, 39, 39);
     width: 50%;
     justify-content: space-around;
     transform: translateX(100%);
@@ -68,13 +68,20 @@ a
   }
 
   .burger div {
-    background-color: white;
+    background-color: #FFFDFA;
     width: 25px;
     height: 3px;
     margin: 5px;
     transition: all 0.3s ease;
   }
 
+
+  .icon_links 
+  {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+  }
 
 
   .nav-active {
@@ -106,13 +113,14 @@ a
 }
 
 /* --------------------------------Tab / Ipad -----------------------------------------*/
-@media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) 
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 767px) and (max-device-width: 1007px) 
 {
 
 
     body 
     {
         display: flex;
+        justify-content: space-between;
     }
     header
     {
@@ -120,16 +128,30 @@ a
         flex-direction: column;
         width:18%;
         height: 100%;
-        background-color: black;
+        position: absolute;
+        background-color: #262626;
+        top: 0;
+        left:0;
+        /*overflow: hidden;
+        z-index: 1;*/
     }
 
     div.container
     {
-        background-color:white;
+        background-color:#FFFDFA;
+        width:82%;
+        height: 100%;
+        right: 0;
+        position:absolute;
     }
+    
+
+
+
+
     .navbar {
         height: 100vh;
-        color: white;
+        color: #FFFDFA;
         display: flex;
         flex-direction: column;
       }
@@ -159,8 +181,7 @@ a
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
-      height:60%;
-      padding-bottom: 50px;
+      height:35%;
 
   }
   
@@ -177,8 +198,8 @@ a
 @media only screen and (min-width: 1008px) and (max-width: 1605px) {
   .navbar {
     width :100vw;
-    background-color: black;
-    color: white;
+    background-color: #262626;
+    color: #FFFDFA;
     display: flex;
     align-items: center;
     height: 10vh;
@@ -188,7 +209,7 @@ a
   .nav_ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 40%;
     margin-left: 50px;
     padding-right: 0px;
@@ -213,7 +234,7 @@ a
 
   a 
   {
-    color: white;
+    color: #FFFDFA;
     text-decoration: none;
   }
 
