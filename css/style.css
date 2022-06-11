@@ -20,9 +20,11 @@ a
   text-decoration: none;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 0px) and (max-device-width: 767px) {
+/* (-webkit-min-device-pixel-ratio: 1) and  */
+@media only screen and  (min-device-width: 0px) and (max-device-width: 767px) {
   body {
     overflow-x: hidden;
+    color: #FFFDFA;
   }
 
   /*
@@ -110,10 +112,50 @@ a
   .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
   }
+
+
+
+  div .background_image
+  {
+    background-image: url("/img/mobileview.jpg");
+    width:100vw;
+    height:75vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hire_paragraph 
+  {
+    padding-top: 6vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hire_button
+  {
+    padding : 10px;
+    border:1px solid #FFFDFA;;
+    border-radius: 10px;
+  }
+
+
+  .summary
+  {
+    border: 1px solid white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.898);
+  }
+
 }
 
-/* --------------------------------Tab / Ipad -----------------------------------------*/
-@media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-device-width: 768px) and (max-device-width: 1007px) 
+/* --------------------(-webkit-min-device-pixel-ratio: 1) and------------Tab / Ipad -----------------------------------------*/
+@media only screen and  (min-device-width: 768px) and (max-device-width: 1007px) 
 {
 
 
@@ -185,6 +227,7 @@ a
 
   }
   
+
 
 
 
