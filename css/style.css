@@ -4,27 +4,24 @@
   box-sizing: border-box;
 }
 
-img
-{
+img {
   max-width: 100%;
 }
 
-li 
-{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-a 
-{
-  color :#FFFDFA ;
+a {
+  color: #fffdfa;
   text-decoration: none;
 }
 
 /* (-webkit-min-device-pixel-ratio: 1) and  */
-@media only screen and  (min-device-width: 0px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
   body {
     overflow-x: hidden;
-    color: #FFFDFA;
+    color: #fffdfa;
   }
 
   /*
@@ -35,8 +32,8 @@ a
   */
 
   .navbar {
-    background-color:black;
-    color: #FFFDFA;
+    background-color: black;
+    color: #fffdfa;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,7 +49,7 @@ a
     flex-direction: column;
     top: 8vh;
     align-items: center;
-    color: #FFFDFA;
+    color: #fffdfa;
     list-style-type: none;
     background-color: rgba(0, 0, 0, 0.898);
     width: 50%;
@@ -70,21 +67,18 @@ a
   }
 
   .burger div {
-    background-color: #FFFDFA;
+    background-color: #fffdfa;
     width: 25px;
     height: 3px;
     margin: 5px;
     transition: all 0.3s ease;
   }
 
-
-  .icon_links 
-  {
+  .icon_links {
     width: 30%;
     display: flex;
     justify-content: space-between;
   }
-
 
   .nav-active {
     transform: translateX(0%);
@@ -113,38 +107,31 @@ a
     transform: rotate(45deg) translate(-5px, -6px);
   }
 
-
-
   /*---------------------------------background image for mobile --------------------------_*/
-  div .background_image
-  {
-    background-image: url("/img/mobileview.jpg");
-    width:100vw;
-    height:75vh;
+  div .background_image {
+    background-image: url('/img/mobileview.jpg');
+    width: 100vw;
+    height: 75vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
   }
 
-  .hire_paragraph 
-  {
+  .hire_paragraph {
     padding-top: 6vh;
     padding-left: 8vw;
     padding-right: 8vw;
     display: flex;
     justify-content: space-between;
   }
-  .hire_button
-  {
-    padding : 10px;
-    border:1px solid #FFFDFA;;
+  .hire_button {
+    padding: 10px;
+    border: 1px solid #fffdfa;
     border-radius: 10px;
   }
 
-
-  .summary
-  {
-    border: 0.px solid white;
+  .summary {
+    border: 0px solid white;
     width: 90%;
     margin: auto;
     padding: 10px;
@@ -153,148 +140,113 @@ a
     background-color: rgba(0, 0, 0, 0.898);
   }
 
-  .summary p 
-  {
+  .summary p {
     display: flex;
     flex-direction: column;
   }
   /* -------------------------------------------- mobile ------------------------------------------*/
-
-
 }
 
 /* --------------------(-webkit-min-device-pixel-ratio: 1) and------------Tab / Ipad -----------------------------------------*/
-@media only screen and  (min-device-width: 768px) and (max-device-width: 1007px) 
-{
-
-
-
-    body 
-    {
-        display: flex;
-        justify-content: space-between;
-        color: #FFFDFA;
-    }
-    header
-    {
-        display: flex;
-        flex-direction: column;
-        width:18%;
-        height: 100%;
-        position: absolute;
-        background-color: #262626;
-        top: 0;
-        left:0;
-        /*overflow: hidden;
-        z-index: 1;*/
-    }
-
-    div.container
-    {
-        background-color:#FFFDFA;
-        width:82%;
-        height: 100%;
-        right: 0;
-        position:absolute;
-    }
-    
-
-
-
-
-    .navbar {
-        height: 100vh;
-        color: #FFFDFA;
-        display: flex;
-        flex-direction: column;
-      }
-
-
-      .icon_links
-      {
-        display: flex;
-        flex-direction:column;
-        align-items: center;
-        justify-content: space-around;;
-        height: 20%;
-      }
-
-    .logo 
-    {
-       
-        font-family: 'Playfair Display SC', serif;
-        padding-top: 20px;
-        text-align: center;
-        height:10%;
-    }
-
-  .nav_ul 
-  {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      height:35%;
-
+@media only screen and (min-device-width: 768px) and (max-device-width: 1007px) {
+  body {
+    display: flex;
+    justify-content: space-between;
+    color: #fffdfa;
   }
-  
-  img 
-  {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    height: 100%;
+    position: absolute;
+    background-color: #262626;
+    top: 0;
+    left: 0;
+    /*overflow: hidden;
+        z-index: 1;*/
+  }
+
+  div.container {
+    background-color: #fffdfa;
+    width: 82%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+  }
+
+  .navbar {
+    height: 100vh;
+    color: #fffdfa;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon_links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 20%;
+  }
+
+  .logo {
+    font-family: 'Playfair Display SC', serif;
+    padding-top: 20px;
+    text-align: center;
+    height: 10%;
+  }
+
+  .nav_ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 35%;
+  }
+
+  img {
     max-width: 100%;
   }
 
+  /*---------------------------------background image for tab --------------------------_*/
+  div .background_image {
+    background-image: url('/img/mobileview.jpg');
+    width: 100%;
+    height: 75vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
 
+  .hire_paragraph {
+    padding-top: 6vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hire_button {
+    padding: 10px;
+    border: 1px solid #fffdfa;
+    border-radius: 10px;
+  }
 
+  .summary {
+    border: 0px solid white;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.898);
+  }
 
-
-
-    /*---------------------------------background image for tab --------------------------_*/
-    div .background_image
-    {
-      background-image: url("/img/mobileview.jpg");
-      width:100%;
-      height:75vh;
-      background-size: cover;
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .hire_paragraph 
-    {
-      padding-top: 6vh;
-      padding-left: 8vw;
-      padding-right: 8vw;
-      display: flex;
-      justify-content: space-between;
-    }
-    .hire_button
-    {
-      padding : 10px;
-      border:1px solid #FFFDFA;;
-      border-radius: 10px;
-    }
-  
-  
-    .summary
-    {
-      border: 0.px solid white;
-      width: 90%;
-      margin: auto;
-      padding: 10px;
-      margin-top: 20px;
-      border-radius: 5px;
-      background-color: rgba(0, 0, 0, 0.898);
-    }
-  
-    .summary p 
-    {
-      display: flex;
-      flex-direction: column;
-    }
-    /* -------------------------------------------- tab ------------------------------------------*/
-
-
-
+  .summary p {
+    display: flex;
+    flex-direction: column;
+  }
+  /* -------------------------------------------- tab ------------------------------------------*/
 }
 
 /* ----------------------------Laptop -------------------------------------*/
@@ -302,9 +254,9 @@ a
 /* For 1024 Resolution */
 @media only screen and (min-width: 1008px) and (max-width: 1605px) {
   .navbar {
-    width :100vw;
-    background-color: #262626;
-    color: #FFFDFA;
+    width: 100vw;
+    background-color: black;
+    color: #fffdfa;
     display: flex;
     align-items: center;
     height: 10vh;
@@ -320,8 +272,6 @@ a
     padding-right: 0px;
   }
 
-
-
   .logo {
     font-size: 25px;
     font-family: 'Playfair Display SC', serif;
@@ -329,20 +279,88 @@ a
     padding-left: 20px;
   }
 
-
-  .icon_links
-  {
+  .icon_links {
     display: flex;
     width: 20%;
     justify-content: space-around;
   }
 
-  a 
-  {
-    color: #FFFDFA;
+  a {
+    color: #fffdfa;
     text-decoration: none;
   }
 
+
+  img 
+  {
+    margin:0;
+  }
+
+  .container 
+  {
+    border-top:none;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+  }
+
+
+  /*--------------------------------- background image for desktop/laptop --------------------------*/
+  div .background_image {
+    background-image: url('/img/desktop3.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    margin-top: 0%;
+
+  }
+
+  nav 
+  {
+    margin: 0;
+    padding:0;
+    position: fixed;
+  }
+
+  p .hire_paragraph {
+    /*
+    padding-top: 6vh;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    display: hidden;
+    justify-content: space-between;
+    */
+    display:none;
+    visibility:hidden;
+  }
+  .hire_button {
+    /*
+    display: hidden;
+    padding: 10px;
+    border: 1px solid #fffdfa;
+    border-radius: 10px;
+    */
+    display:none;
+    visibility:hidden;
+    
+  }
+
+  .summary {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.898);
+    display: none;
+    visibility:hidden;
+  }
+
+  .summary p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /*--------------------------------------------------laptop/desktop--------------------------------*/
 }
 
 /* -----------------------------------Desktop -----------------------------------------*/
