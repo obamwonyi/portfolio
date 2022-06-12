@@ -35,7 +35,7 @@ a
   */
 
   .navbar {
-    background-color: #262626;
+    background-color:black;
     color: #FFFDFA;
     display: flex;
     justify-content: space-around;
@@ -54,7 +54,7 @@ a
     align-items: center;
     color: #FFFDFA;
     list-style-type: none;
-    background-color: rgb(41, 39, 39);
+    background-color: rgba(0, 0, 0, 0.898);
     width: 50%;
     justify-content: space-around;
     transform: translateX(100%);
@@ -115,6 +115,7 @@ a
 
 
 
+  /*---------------------------------background image for mobile --------------------------_*/
   div .background_image
   {
     background-image: url("/img/mobileview.jpg");
@@ -143,7 +144,7 @@ a
 
   .summary
   {
-    border: 1px solid white;
+    border: 0.px solid white;
     width: 90%;
     margin: auto;
     padding: 10px;
@@ -152,6 +153,14 @@ a
     background-color: rgba(0, 0, 0, 0.898);
   }
 
+  .summary p 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  /* -------------------------------------------- mobile ------------------------------------------*/
+
+
 }
 
 /* --------------------(-webkit-min-device-pixel-ratio: 1) and------------Tab / Ipad -----------------------------------------*/
@@ -159,10 +168,12 @@ a
 {
 
 
+
     body 
     {
         display: flex;
         justify-content: space-between;
+        color: #FFFDFA;
     }
     header
     {
@@ -227,9 +238,60 @@ a
 
   }
   
+  img 
+  {
+    max-width: 100%;
+  }
 
 
 
+
+
+
+    /*---------------------------------background image for tab --------------------------_*/
+    div .background_image
+    {
+      background-image: url("/img/mobileview.jpg");
+      width:100%;
+      height:75vh;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .hire_paragraph 
+    {
+      padding-top: 6vh;
+      padding-left: 8vw;
+      padding-right: 8vw;
+      display: flex;
+      justify-content: space-between;
+    }
+    .hire_button
+    {
+      padding : 10px;
+      border:1px solid #FFFDFA;;
+      border-radius: 10px;
+    }
+  
+  
+    .summary
+    {
+      border: 0.px solid white;
+      width: 90%;
+      margin: auto;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 5px;
+      background-color: rgba(0, 0, 0, 0.898);
+    }
+  
+    .summary p 
+    {
+      display: flex;
+      flex-direction: column;
+    }
+    /* -------------------------------------------- tab ------------------------------------------*/
 
 
 
