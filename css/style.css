@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body 
+{
+  font-family: 'Roboto', sans-serif;
+}
 img {
   max-width: 100%;
 }
@@ -18,7 +22,7 @@ a {
 }
 
 /* (-webkit-min-device-pixel-ratio: 1) and  */
-@media only screen and (min-device-width: 0px) and (max-device-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
   body {
     overflow-x: hidden;
     color: #fffdfa;
@@ -126,14 +130,16 @@ a {
   }
   .hire_button {
     padding: 10px;
-    border: 1px solid #fffdfa;
     border-radius: 10px;
+    background-color: rgb(118, 64, 118);;
   }
 
   .summary {
     border: 0px solid white;
     width: 90%;
+    height:50%;
     margin: auto;
+    margin-bottom: 10px;
     padding: 10px;
     margin-top: 20px;
     border-radius: 5px;
@@ -144,15 +150,32 @@ a {
     display: flex;
     flex-direction: column;
   }
+
+  .button_div
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects_button
+  {
+    display: flex;
+    width:90%;
+    background-color: rgb(118, 64, 118);
+    padding:10px;
+    border-radius: 10px;
+    justify-content:center;
+  }
   /* -------------------------------------------- mobile ------------------------------------------*/
 }
 
 /* --------------------(-webkit-min-device-pixel-ratio: 1) and------------Tab / Ipad -----------------------------------------*/
-@media only screen and (min-device-width: 768px) and (max-device-width: 1007px) {
+@media only screen and (min-width: 768px) and (max-width: 1007px) {
   body {
     display: flex;
     justify-content: space-between;
     color: #fffdfa;
+    font-size: 20px;
   }
   header {
     display: flex;
@@ -226,16 +249,20 @@ a {
     display: flex;
     justify-content: space-between;
   }
+
   .hire_button {
     padding: 10px;
-    border: 1px solid #fffdfa;
     border-radius: 10px;
+    background-color: rgb(118, 64, 118);;
   }
 
   .summary {
     border: 0px solid white;
     width: 90%;
+    height:50%;
     margin: auto;
+    font-size:25px;
+    margin-bottom: 10px;
     padding: 10px;
     margin-top: 20px;
     border-radius: 5px;
@@ -246,13 +273,30 @@ a {
     display: flex;
     flex-direction: column;
   }
+
+  .button_div
+  {
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects_button
+  {
+    display: flex;
+    width:90%;
+    background-color: rgb(118, 64, 118);
+    padding:10px;
+    border-radius: 10px;
+    justify-content:center;
+  }
   /* -------------------------------------------- tab ------------------------------------------*/
 }
 
 /* ----------------------------Laptop -------------------------------------*/
 /* this orientation is for laptop */
 /* For 1024 Resolution */
-@media only screen and (min-width: 1008px) and (max-width: 1605px) {
+@media only screen and (min-width: 1008px) and (max-width: 1605px) 
+{
   .navbar {
     width: 100vw;
     background-color: black;
@@ -312,7 +356,8 @@ a {
     height: 100%;
     background-size: cover;
     display: flex;
-    margin-top: 0%;
+    flex-wrap: wrap;
+
 
   }
 
