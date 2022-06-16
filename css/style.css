@@ -70,6 +70,7 @@ a {
     opacity: 0;
   }
 
+  /* --------------------------------burger navigation styling ----------------------------*/
   .burger div {
     background-color: #fffdfa;
     width: 25px;
@@ -130,6 +131,8 @@ a {
   }
   .hire_button {
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 10px;
     background-color: rgb(118, 64, 118);;
   }
@@ -163,8 +166,46 @@ a {
     width:90%;
     background-color: rgb(118, 64, 118);
     padding:10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 10px;
     justify-content:center;
+  }
+
+
+  /* --------------------------------footer styling for mobile view -------------------*/ 
+
+
+  .tab_footer
+  {
+    display: none;
+    visibility:none;
+  }
+
+  .footer
+  {
+    display: flex;
+    background-color: black;
+    height: 20vh;
+    bottom:0;
+  }
+
+  .footer_div1 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    padding: 10px;
+  }
+
+  .footer_div2 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding:10px;
   }
   /* -------------------------------------------- mobile ------------------------------------------*/
 }
@@ -252,6 +293,8 @@ a {
 
   .hire_button {
     padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     border-radius: 10px;
     background-color: rgb(118, 64, 118);;
   }
@@ -283,12 +326,53 @@ a {
   .projects_button
   {
     display: flex;
-    width:90%;
+    width:50%;
     background-color: rgb(118, 64, 118);
     padding:10px;
+    padding-bottom: 35px;
+    padding-top: 35px;
     border-radius: 10px;
     justify-content:center;
   }
+
+
+/*--------------------------------------------------footer-----------------------*/
+  .tab_footer
+  {
+    display: flex;
+    background-color: black;
+    height: 20vh;
+    bottom:0;
+  }
+
+  .footer_div1 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:50%;
+    padding: 10px;
+    padding-left: 30px;
+  }
+
+  .footer_div2 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 50%;
+    padding:10px;
+    padding-left: 30px;
+  }
+
+  .footer
+  {
+    display:none;
+    visibility:none;
+  }
+
   /* -------------------------------------------- tab ------------------------------------------*/
 }
 
@@ -403,6 +487,41 @@ a {
   .summary p {
     display: flex;
     flex-direction: column;
+  }
+
+
+  /* ----------------------------desktop footer -----------------------------------*/ 
+
+  .tab_footer
+  {
+    display: none;
+    visibility:none;
+  }
+
+  .footer
+  {
+    display: flex;
+    background-color: black;
+    height: 20vh;
+    bottom:0;
+  }
+
+  .footer_div1 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:50%;
+    padding: 10px;
+  }
+
+  .footer_div2 
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding:10px;
   }
 
   /*--------------------------------------------------laptop/desktop--------------------------------*/
