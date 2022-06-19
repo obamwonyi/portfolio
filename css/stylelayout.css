@@ -1,0 +1,20 @@
+
+/*--------------------------this is for mobile layout ------------------------*/
+@media only screen and (min-width: 0px) and (max-width: 767px) 
+{
+
+}
+
+
+/*--------------------------this is for tab layout --------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1007px)
+{
+
+}
+
+
+/*-----------------------this is for desktop layout------------------------*/
+@media only screen and (min-width: 1008px) and (max-width: 1605px) 
+{
+
+}

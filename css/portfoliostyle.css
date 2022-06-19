@@ -1,0 +1,105 @@
+
+
+    .php
+    {
+        background-color: rgb(70, 76, 158);
+        color: white;
+        padding:3px 10px;
+    }
+
+    .bootstrap
+    {
+        background-color: rgb(191, 191, 183);
+        color: white;
+        padding:3px 10px;
+    }
+
+
+    .javascript
+    {
+        background-color: rgb(225, 219, 66);
+        color: white;
+        padding:1px 10px;
+    }
+
+    .node
+    {
+        background-color: rgb(119, 225, 66);
+        color: white;
+        padding:2px 10px;
+    }
+    .express
+    {
+        background-color: rgb(66, 225, 151);
+        color: white;
+        padding:1px 10px;
+
+    }
+
+
+
+
+
+
+/*--------------------------this is for mobile layout ------------------------*/
+@media only screen and (min-width: 0px) and (max-width: 767px) 
+{
+
+    p 
+    {
+        line-height: 25px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding:20px;
+        overflow: hidden;
+        box-shadow: 2px 5px rgba(0, 0, 0, 0.1), -2px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 1em;
+        color: black;
+        background: #ECE9E6;
+      background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+      
+      }
+
+
+      .heading 
+      {
+          padding-bottom: 20px;
+          line-height: 30px;
+      }
+
+
+      .github_link
+      {
+          background-color:rgb(128, 16, 124);
+          color: white;
+          border: 2px solid;
+          border-radius: 5px;
+          padding:10px;
+      }
+
+      .github_link_p
+      {
+          margin-top: 30px;
+      }
+      
+}
+
+
+/*--------------------------this is for tab layout --------------------------------*/
+@media only screen and (min-width: 768px) and (max-width: 1007px)
+{
+
+}
+
+
+/*-----------------------this is for desktop layout------------------------*/
+@media only screen and (min-width: 1008px) and (max-width: 1605px) 
+{
+
+}
