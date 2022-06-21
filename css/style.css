@@ -479,6 +479,14 @@ a {
 /* For 1024 Resolution */
 @media only screen and (min-width: 1008px) and (max-width: 1605px) 
 {
+
+
+  header
+  {
+    height:10vh;
+  }
+
+
   .navbar {
     width: 100vw;
     background-color: black;
@@ -493,8 +501,10 @@ a {
     display: flex;
     list-style-type: none;
     justify-content: space-between;
+    font-size: 10px;
     width: 40%;
     margin-left: 50px;
+    margin-right: 50px;
     padding-right: 0px;
   }
 
@@ -507,8 +517,14 @@ a {
 
   .icon_links {
     display: flex;
-    width: 20%;
+    width: 15%;
     justify-content: space-around;
+  }
+
+  .twitter_icon
+  {
+    width:30px;
+    height:30px;
   }
 
   a {
@@ -533,16 +549,18 @@ a {
 
   /*--------------------------------- background image for desktop/laptop --------------------------*/
   div .background_image {
-    background-image: url('/img/desktop3.jpg');
+    background-image: url('/img/blackbannerwithflower.jpg');
     width: 100vw;
-    height: 100%;
+    height: 32vw;
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-wrap: wrap;
+ 
+
 
 
   }
+
 
   nav 
   {
@@ -575,17 +593,19 @@ a {
   }
 
   .summary {
-    width: 90%;
+    width: 95%;
+    height:100%;
+    display:flex;
+    color: white;
     margin: auto;
-    margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.898);
-    display: none;
-    visibility:hidden;
+    background-color: rgba(0, 0, 0, 0.364);
   }
 
-  .summary p {
+  .summary > p {
     display: flex;
     flex-direction: column;
+    display: none;
+    visibility:none;
   }
 
 
@@ -594,6 +614,18 @@ a {
   .tab_footer
   {
     display: none;
+    visibility:none;
+  }
+
+  .tab_div_after_bg 
+  {
+    display:none;
+    visibility:none;
+  }
+
+  .button_div 
+  {
+    display:none;
     visibility:none;
   }
 
