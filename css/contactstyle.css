@@ -104,6 +104,12 @@
           display:none;
           visibility:none;
       }
+
+      .contact_text
+      {
+        text-align: center;
+      }
+
       
 }
 
@@ -180,6 +186,12 @@
       {
           width: 100px; 
           height:100px;
+      }
+
+
+      .contact_text
+      {
+        text-align: center;
       }
 
 
