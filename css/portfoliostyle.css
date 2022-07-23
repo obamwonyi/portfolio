@@ -45,6 +45,18 @@
 @media only screen and (min-width: 0px) and (max-width: 767px) 
 {
 
+    .desktop_view 
+    {
+        display:none; 
+        visibility:none;
+    }
+
+    .desk_footer
+    {
+        display:none; 
+        visibility:none;
+    }
+
     p 
     {
         line-height: 25px;
@@ -108,6 +120,18 @@
     }
 
 
+    .desktop_view 
+    {
+        display:none; 
+        visibility:none;
+    }
+
+    .desk_footer
+    {
+        display:none; 
+        visibility:none;
+    }
+
 
 
     p 
@@ -162,5 +186,112 @@
 /*-----------------------this is for desktop layout------------------------*/
 @media only screen and (min-width: 1008px) and (max-width: 1605px) 
 {
+
+    .mobile_desktop_section
+    {
+        display:none;
+        visibility:none;
+    }
+
+    .container
+    {
+        width:80vw;
+        margin:auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .desktop_view
+    {
+        width:100%;
+    }
+
+    .an_item
+    {
+        width:100%;
+        border-bottom: 2px solid black;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+
+    .portfolio_item
+    {
+        width:100%;
+        display: flex;
+    }
+
+    .portfolio_item_col1
+    {
+        width:50%;
+        height:100%;
+        padding-bottom: 20px;
+    }
+
+    .portfolio_item_col2
+    {
+        width:50%;
+        height:100%;
+        padding-bottom: 20px;
+    }
+
+    .figcation_div
+    {
+        background-color:black;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        height:50%;
+    }
+
+    .portfolio_img
+    {
+        width:35px;
+        height:35px;
+        padding-right: 10px;
+    }
+
+    .portfolio_h1
+    {
+        display:flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .portfolio_h1_two
+    {
+        display:flex;
+        align-items: center;
+        margin-top: 20px;
+        justify-content:center;
+    }
+
+    .portfolio_text
+    {
+        margin-top: 35px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+    .iframe_div
+    {
+        width:90%;
+        margin: auto;
+        display:flex; 
+        align-items: center;
+        justify-content:center;
+    }
+
+    .portfolio_banner
+    {
+        width:500px;
+        height:250px;
+        padding: 10px;
+    }
+
+    .iframe_a
+    {
+        cursor:pointer;
+    }
+
 
 }

@@ -12,6 +12,26 @@
 @media only screen and (min-width: 0px) and (max-width: 767px) 
 {
 
+
+
+
+    /*------------------ turn of desktop view ---------------_*/
+    .desktop_container
+    {
+        display: none;
+        visibility:none;
+    }
+
+    .desk_footer
+    {
+        display: none;
+        visibility:none;
+    }
+
+
+
+    /*----------------main mobile view styling ------------------___*/
+
     .profile 
     {
         text-align: center;
@@ -129,6 +149,23 @@
 @media only screen and (min-width: 768px) and (max-width: 1007px)
 {
 
+
+    /*------------------ turn of desktop view ---------------_*/
+    .desktop_container
+    {
+        display: none;
+        visibility:none;
+    }
+
+    .desk_footer
+    {
+        display: none;
+        visibility:none;
+    }
+
+
+
+    /*---------------------main tab styling ---------------_*/
     .about_div 
     {
         display : none;
@@ -244,5 +281,219 @@
 /*-----------------------this is for desktop layout------------------------*/
 @media only screen and (min-width: 1008px) and (max-width: 1605px) 
 {
+
+
+    /*------------------turn of all mobile / tab views */
+    .container
+    {
+        display:none;
+        visibility:none;
+    }
+
+    .about_div
+    {
+        display: none;
+        visibility:none;
+    }
+
+    .footer
+    {
+        display: none;
+        visibility:none;
+    }
+
+
+    /* desktop main styling ---------------------------------------*/
+
+    .desktop_container
+    {
+        width:80vw;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .desktop_inner_container
+    {
+        display:flex;
+        width:100%;
+    }
+
+    .column_one
+    {
+        width:60%;
+        display:flex;
+        flex-direction: column;
+        height:100%;
+        padding:20px;
+    }
+
+    .column_two
+    {
+        width:40%;
+        display:flex;
+        flex-direction: column;
+        height:100%;
+        padding:20px;
+    }
+
+
+    .h1_col1
+    {
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+
+    .h2_col1
+    {
+        font-size: 35px;
+    }
+
+    .p_col1
+    {
+        font-size: 30px;
+        align-items: center;
+    }
+
+    .p_flag 
+    {
+        width:30px;
+        height: 30px;
+    }
+
+    .img_span
+    {
+    }
+
+    .cover_letter
+    {
+        margin-top: 30px;
+    }
+
+    .p_cover_letter
+    {
+        word-spacing: 5px;
+        line-height: 25px;
+    }
+
+    .p_project_desk
+    {
+      font-size: 25px;
+      text-align: center;
+      display: flex;
+      justify-content:center;
+      width:35%;
+      margin-right: auto;
+      margin-left: auto;
+      align-items: center;
+      background-color: rgba(4, 4, 4, 0.801);
+      margin-top: 50px;
+      border: 2px white;
+      border-radius: 25px;
+      transition: background-color border 1s;
+    }
+
+    .p_project_desk:hover
+    {
+      background-color: white;
+      transition:2s;
+      color: black;
+      border: 2px solid black;
+    }
+
+    .p_project_anchor_desk
+    {
+      display:flex;
+      justify-content:center;
+      align-items: center;
+      transition: color 1s;
+    }
+
+    .p_project_anchor_desk2
+    {
+      display:flex;
+      justify-content:center;
+      align-items: center;
+      transition: color 1s;
+      padding:10px;
+    }
+
+    .p_project_anchor_desk:hover
+    {
+        transition:2s;
+        color: black;
+    }
+  
+
+
+    .info
+    {
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .info_h1
+    {
+        display:flex;
+        align-items: center;
+    }
+
+    .info_h2
+    {
+        display:flex;
+        align-items: center;
+        padding-left: 21px;
+    }
+
+    .info_ul
+    {
+        padding-left: 63px;
+    }
+
+
+    /*-------------adding image --------------------*/
+
+    .header_div
+    {
+        display:flex;
+    }
+
+
+    .header_col1 
+    {
+        width:30%;
+    }
+
+    .header_col2
+    {
+        width:60%;
+    }
+
+    .header_img
+    {
+        width:120px;
+        height:144px;
+    }
+
+    .certification
+    {
+        color:black;
+        border-bottom: 2px solid black;
+        transition:color border-bottom 2s;
+    }
+
+    .certification:hover
+    {
+        transition:2s;
+        border-bottom: 2px solid blue;
+        color:blue;
+    }
+
+    .cert_li
+    {
+        margin-bottom: 10px;
+    }
+
 
 }

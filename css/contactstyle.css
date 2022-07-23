@@ -34,6 +34,13 @@
 @media only screen and (min-width: 0px) and (max-width: 767px) 
 {
 
+
+    .desk_footer
+    {
+        visibility:none;
+        display: none;
+    }
+
     p 
     {
         line-height: 25px;
@@ -125,6 +132,11 @@
     }
 
 
+    .desk_footer
+    {
+        visibility:none;
+        display: none;
+    }
 
 
     p 
@@ -199,5 +211,202 @@
 
 @media only screen and (min-width: 1008px) and (max-width: 1605px) 
 {
+
+    /*-----------------disable mobile and tab view --------------------*/
+    .tab_section
+    {
+        display:none;
+        visibility:none;
+    }
+
+    .mobile_desktop_section
+    {
+        display:none;
+        visibility:none;
+    }
+
+    .tab_footer
+    {
+        display:none;
+        visibility:none;
+    }
+
+    /* ----------------------desktop main styling -----------------------*/
+
+    .container
+    {
+        width:80vw;
+        margin: auto;
+    }
+
+    .desktop_section
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_info_twitter
+    {
+        width:90%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: rgb(0, 179, 255);
+        display: flex;
+        padding:20px;
+        height: 100%;
+    }
+
+    .contact_info_gmail
+    {
+        width:90%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: red;
+        display: flex;
+        padding:20px;
+        height: 100%;
+    }
+
+    .contact_info_linkedin
+    {
+        width:90%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: blue;
+        display: flex;
+        padding:20px;
+        height: 100%;
+    }
+
+    .contact_info_upwork
+    {
+        width:90%;
+        margin: auto;
+        margin-top: 50px;
+        background-color: black;
+        display: flex;
+        padding:20px;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+
+
+    .contact_icon
+    {
+        width:40%;
+    }
+
+    .contact_text
+    {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .contact_icon_div
+    {
+        width:150px;
+        height:150px;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 75px;
+        background-color: white;
+    }
+
+    .contact_img
+    {
+        width:100px;
+        height:100px;
+        padding: 20px;
+    }
+
+    .contact_text_div
+    {
+        margin-top: 20px;
+    }
+
+    .contact_text_p
+    {
+        padding-left:20px;
+        display: flex;
+        font-size: 25px;
+        align-items: center;
+    }
+
+    .project_setting_contact
+    {
+      width:25px;
+      height: 25px;
+      margin-right: 10px;
+    }
+
+    .contact_ul
+    {
+        margin-top: 30px;
+    }
+
+    .contact_li
+    {
+        margin-top:10px;
+    }
+
+    .li_a
+    {
+        transition: border-bottom 2s ;
+    }
+
+    .li_a:hover
+    {
+        border-bottom: 1px solid black;
+        transition: 2s;
+    }
+
+    .contact_text_h1
+    {
+        margin-top: 10px;
+        color: rgb(220, 220, 220);
+    }
+
+    .profile_button
+    {
+        width: 30%;
+        background-color: black;
+        padding: 10px;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .profile_button_upwork
+    {
+        width: 30%;
+        background-color: white;
+        padding: 10px;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .reach_out
+    {
+        color: white;
+    }
+    .reach_out_upwork
+    {
+        color: white;
+    }
+    .reach_out_upwork2
+    {
+        color: black;
+    }
+
+
+
 
 }

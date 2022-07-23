@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <httpProtocol>
+    <customHeaders>
+      <add name="Content-Security-Policy" value="frame-ancestors 'self' https://*.github.com; default-src 'self' github.com;
+      connect-src github.com;
+      frame-ancestors 'self' https://github.com/ " />
+      <!-- Test this option as Chrome supports CSP now for Iframe opening-->
+    </customHeaders>
+  </httpProtocol>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta 
+    http-equiv="content-security-policy"
+    content="default-src 'self' github.com;
+    connect-src github.com;
+    frame-ancestors 'self' https://github.com/ "
+    >
     <title>Document</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/portfoliostyle.css">
@@ -210,6 +225,177 @@
         </div>
 
       </section>
+
+
+
+      <section class="desktop_view">
+
+
+
+        <!-------------------------------------item one --------------------------------------->
+        <div class="an_item">
+
+
+          <div class="iframe_div">
+            <a class="iframe_a" href="https://github.com/obamwonyi/e-commerce">
+              <img class="portfolio_banner" src="/img/E-commerce.gif" alt="">
+            </a>
+          </div>
+          <div class="portfolio_item">
+            <div class="portfolio_item_col1">
+              <h1 class="portfolio_h1"><img class="portfolio_img" src="/img/black_circle.svg" alt=""> E-commerce website</h1>
+  
+              <div class="portfolio_text">
+                <p>
+                  Built an e-commerce website with HTML, CSS vanilla Javascript and PHP using MVC design pattern and MYSQL as 
+                  My DBMS.
+                </p>
+              </div>
+            </div>
+  
+            <div class="portfolio_item_col2">
+              <h1 class="portfolio_h1_two"> README.MD</h1>
+  
+              <div class="portfolio_text">
+                <p>
+                  The read me for this project is not available yet, as I am currently working on this 
+                  particular project and will be done in no time . 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-----------------------------item two ----------------------------------------------->
+
+        <div class="an_item">
+
+          <div class="iframe_div">
+            <a class="iframe_a" href="https://github.com/obamwonyi/php_crud_project">
+              <img class="portfolio_banner" src="/img/Crud_website.gif" alt="">
+            </a>
+          </div>
+          <div class="portfolio_item">
+            <div class="portfolio_item_col1">
+              <h1 class="portfolio_h1"><img class="portfolio_img" src="/img/black_circle.svg" alt="">CRUD Website</h1>
+  
+              <div class="portfolio_text">
+                <p>
+                  A Simple Create Read Update and Delete(CRUD) web app with PHP and Bootstrap and MYSQL
+                </p>
+              </div>
+            </div>
+  
+            <div class="portfolio_item_col2">
+              <h1 class="portfolio_h1_two"> README.MD</h1>
+  
+              <div class="portfolio_text">
+                <p>
+                  There was no readme.md file for this project particular project.  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-------------------------------------item three --------------------------------------->
+        <div class="an_item">
+
+          <div class="iframe_div">
+            <a class="iframe_a" href="https://github.com/obamwonyi/project4_weather_journal_app">
+              <img class="portfolio_banner" src="/img/weather_app.gif" alt="">
+            </a>
+          </div>
+          <div class="portfolio_item">
+            <div class="portfolio_item_col1">
+              <h1 class="portfolio_h1"><img class="portfolio_img" src="/img/black_circle.svg" alt="">Weather Webapp</h1>
+  
+              <div class="portfolio_text">
+                <p>
+                  I built a Webapp that tells the particular weather of a location. 
+                </p>
+                <p>
+                  It request for the postal code of the location in an input field 
+                  and returns the weather of the location that has that postal code . 
+                </p>
+                <p>
+                  It was built with <b> HTML,CSS,Javascript, Node.js</b> and  <b>Express.js</b>.
+                </p>
+              </div>
+            </div>
+  
+            <div class="portfolio_item_col2">
+              <h1 class="portfolio_h1_two"> README.MD</h1>
+  
+              <div class="portfolio_text">
+                <h2>Weather Journal App</h2>  
+                <h3>Apps functions </h3>
+                <p>Recieves a zip code in the input field provided for zip . </p>
+                <p>And also recieves your feelings about the weather </p>
+                <p>then returns the weather details of the location carrying the zip code you inserted .</p>
+                <p>It also adds an image to represent the weather diagramatically . </p>
+                <p>And lastly it also returns a discription of the weather in words(phrase). </p>
+                <h3>Implementations </h3>
+                <p>Use of express for web serving . </p>
+                <p>Use of bodyParser for json file handling , along with proper url encoding . </p>
+                <p>Use of a weather API courtesy of https://openweathermap.org. </p>
+                <p>proper use of promises and asynchronous programming . </p>
+
+                <p>written by, <b>Destiny Obamwonyi</b> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-----------------------------item four ------------------------------------------------>
+        <div class="an_item">
+
+          <div class="iframe_div">
+            <a class="iframe_a" href="https://github.com/obamwonyi/Signup_and_login_system_php">
+              <img class="portfolio_banner" src="/img/user_reg_log.gif" alt="">
+            </a>
+          </div>
+          <div class="portfolio_item">
+            <div class="portfolio_item_col1">
+              <h1 class="portfolio_h1"><img class="portfolio_img" src="/img/black_circle.svg" alt=""> E-commerce website</h1>
+  
+              <div class="portfolio_text">
+                <p>
+                  Built an e-commerce website with HTML, CSS vanilla Javascript and PHP using MVC design pattern and MYSQL as 
+                  My DBMS.
+                </p>
+              </div>
+            </div>
+  
+            <div class="portfolio_item_col2">
+              <h1 class="portfolio_h1_two"> README.MD</h1>
+  
+              <div class="portfolio_text">
+                <h2>Signup and Login system:</h2>
+                <p>
+                  This project is a simple sign up and login system where I implemented 
+                  <b>OOP</b> and <b>MVC</b>. I also used Templating ,
+                  this was possible with the aid of output buffering no dependency was 
+                  used just raw <b>PHP</b>  and  <b>PSR-4</b> autoloading and namespacing.
+
+                  You can easily start the project from the public folder with the php command : 
+                  php -S localhost:9000 or any host and port number you will rather use.
+
+                  At the point of writting this I am still working on an e-commerce project, so fill 
+                  free to check the project e-commerce if it is available in my repo .
+                </p>
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </section>
   
   
 
@@ -218,6 +404,8 @@
       </div>
       <!----------------------------------------------------------------------------------------->
   
+
+
       <footer class="footer">
         <div><a href="">LinkedIn</a></div>
         <div><a href="">Email</a></div>
@@ -225,6 +413,21 @@
         <div><a href="">Upwork</a></div>
       </footer>
     
+
+      <footer class="desk_footer">
+        <div class="footer_contactr">
+          <h1 class="footer_contact_text"> <img class="project_setting" src="/img/contact.svg" alt="">  Contact</h1>
+        </div>
+        <div class="footer_social">
+          <div class="footer_social_div"><a class="footer_anchor" href="/pages/contact.html">LinkedIn</a></div>
+          <div class="footer_social_div"><a class="footer_anchor" href="/pages/contact.html">Email</a></div>
+          <div class="footer_social_div"><a class="footer_anchor" href="/pages/contact.html">Twitter</a></div>
+          <div class="footer_social_div"><a class="footer_anchor" href="/pages/contact.html">Upwork</a></div>
+        </div>
+        <div class="footer_copyright">
+          <div><a href="#"> &copy;copyright of Destiny Obamwonyi</a></div>
+        </div>
+      </footer>
 
 
     <script src="../js/app.js"></script>
