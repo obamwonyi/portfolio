@@ -126,7 +126,7 @@ a {
 
   /*---------------------------------background image for mobile --------------------------_*/
   div .background_image {
-    background-image: url('/img/black_background_flower.jpg');
+    background-image: url('../img/black_background_flower.jpg');
     width: 100vw;
     height: 150vw;
     background-size: cover;
@@ -213,7 +213,7 @@ a {
 
   .js_img 
   {
-    background-image: url("/img/js_img.jpg");
+    background-image: url("../img/js_img.jpg");
     max-width:90vw ;
     height:60vw;
     background-size: cover;
@@ -235,7 +235,7 @@ a {
 
   .php_img 
   {
-    background-image: url("/img/php_image.jpg");
+    background-image: url("../img/php_image.jpg");
     max-width:90vw ;
     height:60vw;
     background-size: cover;
@@ -397,7 +397,7 @@ a {
 
   /*---------------------------------background image for tab --------------------------_*/
   div .background_image {
-    background-image: url('/img/black_background_flower.jpg');
+    background-image: url('../img/black_background_flower.jpg');
     width: 100%;
     height: 75vh;
     background-size: cover;
@@ -476,7 +476,7 @@ a {
 
   .js_img 
   {
-    background-image: url("/img/js_img.jpg");
+    background-image: url("../img/js_img.jpg");
     max-width:90vw ;
     height:60vw;
     background-size: cover;
@@ -498,7 +498,7 @@ a {
 
   .php_img 
   {
-    background-image: url("/img/php_image.jpg");
+    background-image: url("../img/php_image.jpg");
     max-width:90vw ;
     height:60vw;
     background-size: cover;
@@ -680,7 +680,7 @@ a {
 
   /*--------------------------------- background image for desktop/laptop --------------------------*/
   div .background_image {
-    background-image: url('/img/blackbannerwithflower.jpg');
+    background-image: url('./img/blackbannerwithflower.jpg');
     width: 100vw;
     height: 32vw;
     background-size: cover;
@@ -799,10 +799,11 @@ a {
   }
 
   /*-----------------------desktop section ---------------*/
-  .desktop_section 
+  
+  /*.desktop_section 
   {
 
-  }
+  }*/
 
   .div_after_bg
   {
@@ -821,7 +822,7 @@ a {
 
   .js_img 
   {
-    background-image: url("/img/responsive_web.png");
+    background-image: url("../img/responsive_web.png");
     max-width:90vw ;
     height:49.2vw;
     background-size: cover;
@@ -834,7 +835,7 @@ a {
 
   .php_img 
   {
-    background-image: url("/img/server_man.png");
+    background-image: url("../img/server_man.png");
     max-width:90vw ;
     height:64.3vw;
     background-size: cover;
