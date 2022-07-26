@@ -1,4 +1,8 @@
 
+    body 
+    {
+        overflow-x: hidden;
+    }
 
     .php
     {
@@ -35,6 +39,7 @@
         padding:1px 10px;
 
     }
+
 
 
 
