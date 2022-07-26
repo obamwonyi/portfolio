@@ -42,7 +42,7 @@
 
 
 /*--------------------------this is for mobile layout ------------------------*/
-@media only screen and (min-width: 0px) and (max-width: 767px) 
+@media only screen and (min-width: 0px) and (max-width: 900px) 
 {
 
     .desktop_view 
@@ -110,7 +110,7 @@
 
 
 /*--------------------------this is for tab layout --------------------------------*/
-@media only screen and (min-width: 768px) and (max-width: 1007px)
+@media only screen and (min-width: 901px) and (max-width: 1300px)
 {
 
     .mobile_desktop_section
@@ -184,7 +184,7 @@
 
 
 /*-----------------------this is for desktop layout------------------------*/
-@media only screen and (min-width: 1008px) and (max-width: 1605px) 
+@media only screen and (min-width: 1301px) and (max-width: 1920px) 
 {
 
     .mobile_desktop_section
