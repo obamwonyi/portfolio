@@ -681,7 +681,7 @@ a {
 
   /*--------------------------------- background image for desktop/laptop --------------------------*/
   div .background_image {
-    background-image: url('./img/blackbannerwithflower.jpg');
+    background-image: url('../img/blackbannerwithflower.jpg');
     width: 100vw;
     height: 32vw;
     background-size: cover;
@@ -885,7 +885,7 @@ a {
   .text
   {
     width:50%;
-    background-color: rgba(255, 255, 255, 0.094);
+    background-color: rgba(255, 255, 255, 0.795);
     border:2px;
     border-radius: 5px;
   }
@@ -893,7 +893,7 @@ a {
   .project_text
   {
     width:50%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.836);
     border:2px;
     border-radius: 5px;
     margin-left: auto;
@@ -954,16 +954,17 @@ a {
     margin-right: auto;
     margin-left: auto;
     align-items: center;
-    background-color: rgba(239, 225, 225, 0.416);
+    background-color:white;
     margin-top: 50px;
     border: 2px white;
     border-radius: 25px;
-    transition: background-color 1s;
+    transition: background-color color 1s;
   }
 
   .p_project:hover
   {
-    background-color: white;
+    background-color: black;
+    color: white;
     transition:2s;
   }
 
@@ -971,6 +972,11 @@ a {
   .p_project  a 
   {
     color: black;
+  }
+
+  .p_project a:hover 
+  {
+    color:white;
   }
 
   .p_project_anchor
